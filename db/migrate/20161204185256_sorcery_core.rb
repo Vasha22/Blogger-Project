@@ -6,7 +6,7 @@ class SorceryCore < ActiveRecord::Migration
       t.string :crypted_password
       t.string :salt
 
-      t.timestamps
+      t.timestamps null: false
     end
 
     add_index :authors, :email, unique: true
