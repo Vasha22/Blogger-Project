@@ -28,8 +28,8 @@ ActiveRecord::Schema.define(version: 20161204185256) do
     t.string   "email",            null: false
     t.string   "crypted_password"
     t.string   "salt"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
     t.index ["email"], name: "index_authors_on_email", unique: true
   end
 
