@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+http://www.theodinproject.com/courses/web-development-101/lessons/ruby-on-rails
